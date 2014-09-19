@@ -1,0 +1,11 @@
+.DS_Store
+.bundle
+log
+
+.idea
+*.gem
+*.iml
+*.ipr
+*.iws
+allure
+allure-report
