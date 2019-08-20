@@ -27,7 +27,7 @@ GEM
     ffi (1.9.3)
     gherkin (2.7.2)
       json (>= 1.4.6)
-    json (1.6.4)
+    json (2.2.0)
     macaddr (1.7.1)
       systemu (~> 2.6.2)
     mime-types (2.3)
