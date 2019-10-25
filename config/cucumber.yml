@@ -1,0 +1,1 @@
+default: "--format pretty --format AllureCucumber::CucumberFormatter --out report/allure-results"

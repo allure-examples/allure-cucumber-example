@@ -7,5 +7,5 @@ log
 *.iml
 *.ipr
 *.iws
-allure
-allure-report
+
+report
