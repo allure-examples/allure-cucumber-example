@@ -13,7 +13,7 @@ GEM
       uuid (~> 2.3)
     backports (3.15.0)
     builder (3.2.4)
-    capybara (3.30.0)
+    capybara (3.31.0)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
@@ -52,8 +52,8 @@ GEM
     multi_test (0.1.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
-    public_suffix (4.0.1)
-    rack (2.0.8)
+    public_suffix (4.0.3)
+    rack (2.1.1)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     regexp_parser (1.6.0)
@@ -90,7 +90,7 @@ PLATFORMS
 
 DEPENDENCIES
   allure-cucumber (~> 2.13.3)
-  capybara (~> 3.30)
+  capybara (~> 3.31)
   rspec (~> 3.8)
   selenium-webdriver (~> 3.142)
   webdrivers (~> 4.2)
