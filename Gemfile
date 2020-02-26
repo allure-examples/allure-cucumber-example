@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'allure-cucumber', '~> 2.13.3'
+gem 'allure-cucumber', '~> 2.13.4'
 gem 'capybara', '~> 3.31'
 gem 'rspec', '~> 3.8'
 gem 'selenium-webdriver', '~> 3.142'
