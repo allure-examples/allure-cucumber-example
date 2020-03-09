@@ -11,7 +11,7 @@ GEM
       mime-types (~> 3.3)
       require_all (>= 2, < 4)
       uuid (~> 2.3)
-    backports (3.16.1)
+    backports (3.17.0)
     builder (3.2.4)
     capybara (3.31.0)
       addressable
