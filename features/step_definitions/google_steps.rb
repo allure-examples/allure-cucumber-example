@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-Given 'I am on google.com' do
-  visit('/')
+Given 'I am on' do |url|
+  visit("http://#{url}")
 end
 
 When 'I enter {string}' do |term|
