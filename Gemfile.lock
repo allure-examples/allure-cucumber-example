@@ -9,10 +9,10 @@ GEM
       zeitwerk (~> 2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    allure-cucumber (2.13.5.rc.1)
-      allure-ruby-commons (= 2.13.5.rc.1)
+    allure-cucumber (2.13.5.rc.2)
+      allure-ruby-commons (= 2.13.5.rc.2)
       cucumber (>= 4.0.0.rc5)
-    allure-ruby-commons (2.13.5.rc.1)
+    allure-ruby-commons (2.13.5.rc.2)
       json (>= 1.8, < 3)
       mime-types (~> 3.3)
       require_all (>= 2, < 4)
@@ -115,7 +115,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  allure-cucumber (~> 2.13.5.rc.1)
+  allure-cucumber (~> 2.13.5.rc.2)
   capybara (~> 3.31)
   rspec (~> 3.8)
   selenium-webdriver (~> 3.142)
