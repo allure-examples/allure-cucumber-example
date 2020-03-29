@@ -5,14 +5,11 @@ require 'capybara/cucumber'
 require 'webdrivers/chromedriver'
 
 # Allure
-Allure.configure do |c|
+AllureCucumber.configure do |c|
   c.results_directory = 'report/allure-results'
   c.clean_results_directory = true
   c.link_tms_pattern = 'https://example.org/tms/{}'
   c.link_issue_pattern = 'https://example.org/issue/{}'
-end
-
-AllureCucumber.configure do |c|
   c.tms_prefix = 'TMS_'
   c.issue_prefix = 'ISSUE_'
 end
