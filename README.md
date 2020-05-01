@@ -1,5 +1,8 @@
 # Allure Cucumber Example
 
+Warning!\
+This example uses 2.13.5.rc version of adapter which has minor difference in configuration. For example with v2.13.4, refer to this [commit](https://github.com/allure-examples/allure-cucumber-example/tree/4750f6b02acbe29424fbf7af97a42c0155bead01)
+
 This example demonstrates how to use Allure [Cucumber](http://cukes.info/) adaptor.
 
 ## Usage
