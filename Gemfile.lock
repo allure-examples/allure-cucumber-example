@@ -9,10 +9,10 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    allure-cucumber (2.13.6)
-      allure-ruby-commons (= 2.13.6)
+    allure-cucumber (2.13.6.1)
+      allure-ruby-commons (= 2.13.6.1)
       cucumber (>= 4.0.0)
-    allure-ruby-commons (2.13.6)
+    allure-ruby-commons (2.13.6.1)
       json (>= 1.8, < 3)
       mime-types (~> 3.3)
       require_all (>= 2, < 4)
@@ -48,7 +48,7 @@ GEM
       cucumber-messages (~> 12.0, >= 12.0.0)
     cucumber-html-formatter (6.0.3)
       cucumber-messages (~> 12.1, >= 12.1.1)
-    cucumber-messages (12.1.1)
+    cucumber-messages (12.2.0)
       protobuf-cucumber (~> 3.10, >= 3.10.8)
     cucumber-tag-expressions (2.0.4)
     cucumber-wire (3.0.0)
@@ -115,7 +115,7 @@ GEM
       selenium-webdriver (>= 3.0, < 4.0)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.3.0)
+    zeitwerk (2.3.1)
 
 PLATFORMS
   ruby
