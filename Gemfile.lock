@@ -47,7 +47,7 @@ GEM
     cucumber-create-meta (1.0.0)
       cucumber-messages (~> 12.2, >= 12.2.0)
       sys-uname (~> 1.2, >= 1.2.1)
-    cucumber-cucumber-expressions (10.2.1)
+    cucumber-cucumber-expressions (10.2.2)
     cucumber-gherkin (14.1.0)
       cucumber-messages (~> 12.3, >= 12.3.2)
     cucumber-html-formatter (7.0.0)
