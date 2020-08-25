@@ -28,7 +28,7 @@ GEM
       xpath (~> 3.2)
     childprocess (3.0.0)
     concurrent-ruby (1.1.7)
-    cucumber (5.0.0)
+    cucumber (5.1.0)
       builder (~> 3.2, >= 3.2.4)
       cucumber-core (~> 8.0, >= 8.0.1)
       cucumber-create-meta (~> 2.0, >= 2.0.1)
@@ -127,7 +127,7 @@ PLATFORMS
 DEPENDENCIES
   allure-cucumber (~> 2.13.6)
   capybara (~> 3.33)
-  cucumber (~> 5.0)
+  cucumber (~> 5.1)
   rspec (~> 3.8)
   selenium-webdriver (~> 3.142)
   webdrivers (~> 4.4)
