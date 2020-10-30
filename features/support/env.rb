@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'pry'
 require 'allure-cucumber'
 require 'capybara/cucumber'
 require 'webdrivers/chromedriver'

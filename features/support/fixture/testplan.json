@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "tests": [
+    {
+      "id": "1235",
+      "selector": "Github page has icon"
+    },
+    {
+      "id": "1245",
+      "selector": "Gitlab page has icon"
+    }
+  ]
+}

@@ -11,3 +11,11 @@ end
 Then 'I should see results' do
   expect(page).to have_css('[role=listbox]')
 end
+
+Then 'I should see github icon' do
+  expect(page).to have_css('.octicon')
+end
+
+Then 'I should see gitlab icon' do
+  expect(page).to have_css('.nav-logo')
+end
