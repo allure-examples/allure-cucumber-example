@@ -109,7 +109,7 @@ GEM
     systemu (2.6.5)
     thor (1.0.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
     uuid (2.3.9)
       macaddr (~> 1.0)
