@@ -13,3 +13,17 @@ Feature: Using Google
       | search_term |
       | pizza       |
       | banana      |
+
+  Scenario: Github page has icon
+    Given I am on
+      """
+      github.com
+      """
+    Then I should see github icon
+
+  Scenario: Gitlab page has icon
+    Given I am on
+      """
+      gitlab.com
+      """
+    Then I should see gitlab icon
