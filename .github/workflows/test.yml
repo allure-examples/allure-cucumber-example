@@ -24,6 +24,6 @@ jobs:
           bundler-cache: true
 
       - name: Test
-        run: bundle exec cucumber
+        run: bundle exec cucumber --publish
         env:
           ALLURE_TESTPLAN_PATH: features/support/fixture
