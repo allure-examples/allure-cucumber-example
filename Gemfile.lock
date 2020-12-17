@@ -109,7 +109,7 @@ GEM
     systemu (2.6.5)
     thor (1.0.1)
     thread_safe (0.3.6)
-    tzinfo (2.0.3)
+    tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     uuid (2.3.9)
       macaddr (~> 1.0)
