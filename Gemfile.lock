@@ -18,13 +18,13 @@ GEM
       require_all (>= 2, < 4)
       uuid (>= 2.3, < 3)
     builder (3.2.4)
-    capybara (3.34.0)
+    capybara (3.35.1)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
       rack (>= 1.6.0)
       rack-test (>= 0.6.3)
-      regexp_parser (~> 1.5)
+      regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
     childprocess (3.0.0)
     concurrent-ruby (1.1.7)
@@ -89,7 +89,7 @@ GEM
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    regexp_parser (1.8.2)
+    regexp_parser (2.0.3)
     require_all (3.0.0)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
@@ -131,7 +131,7 @@ PLATFORMS
 
 DEPENDENCIES
   allure-cucumber (~> 2.13.8)
-  capybara (~> 3.34)
+  capybara (~> 3.35)
   cucumber (~> 5.2)
   rspec (~> 3.10)
   selenium-webdriver (~> 3.142)
