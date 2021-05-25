@@ -16,14 +16,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0.0'
+          ruby-version: '3.0.1'
           bundler-cache: true
-
       - name: Test
-        run: bundle exec cucumber --publish
+        run: bundle exec cucumber
         env:
           ALLURE_TESTPLAN_PATH: features/support/fixture
+      - name: Upload allure-results
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-reports
+          path: report/allure-results
+          if-no-files-found: error
