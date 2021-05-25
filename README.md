@@ -15,7 +15,7 @@ To launch this example you should install Ruby and the allure-cucumber gem.
 ### 3. Install Ruby
 
 ```bash
-rbenv install 3.0.0
+rbenv install 3.0.1
 ```
 
 ### 4. Install bundler
