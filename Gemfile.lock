@@ -9,10 +9,10 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    allure-cucumber (2.13.10)
-      allure-ruby-commons (= 2.13.10)
+    allure-cucumber (2.14.0)
+      allure-ruby-commons (= 2.14.0)
       cucumber (>= 4.0.0, < 7)
-    allure-ruby-commons (2.13.10)
+    allure-ruby-commons (2.14.0)
       mime-types (>= 3.3, < 4)
       oj (>= 3.10, < 4)
       require_all (>= 2, < 4)
@@ -181,7 +181,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
-  allure-cucumber (~> 2.13.10)
+  allure-cucumber (~> 2.14.0)
   capybara (~> 3.35)
   cucumber (~> 6.1)
   pry (~> 0.14.1)

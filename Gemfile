@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'allure-cucumber', '~> 2.13.10'
+gem 'allure-cucumber', '~> 2.14.0'
 gem 'capybara', '~> 3.35'
 gem 'cucumber', '~> 6.1'
 gem 'pry', '~> 0.14.1'
