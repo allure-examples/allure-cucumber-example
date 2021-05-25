@@ -25,7 +25,8 @@ jobs:
         run: bundle exec cucumber
         env:
           ALLURE_TESTPLAN_PATH: features/support/fixture
-      - uses: actions/upload-artifact@v2
+      - name: Upload allure-results
+        uses: actions/upload-artifact@v2
         with:
           name: allure-reports
           path: report/allure-results
