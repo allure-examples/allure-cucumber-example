@@ -92,7 +92,7 @@ GEM
       racc (~> 1.4)
     oj (3.11.5)
     parallel (1.20.1)
-    parser (3.0.1.1)
+    parser (3.0.2.0)
       ast (~> 2.4.1)
     protobuf-cucumber (3.10.8)
       activesupport (>= 3.2)
@@ -126,7 +126,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.1)
-    rubocop (1.16.1)
+    rubocop (1.18.3)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -142,7 +142,7 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    solargraph (0.42.3)
+    solargraph (0.42.4)
       backport (~> 1.2)
       benchmark
       bundler (>= 1.17.2)
@@ -188,7 +188,7 @@ DEPENDENCIES
   pry (~> 0.14.1)
   rspec (~> 3.10)
   selenium-webdriver (~> 3.142)
-  solargraph (~> 0.42.3)
+  solargraph (~> 0.42.4)
   webdrivers (~> 4.6)
 
 BUNDLED WITH
