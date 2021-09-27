@@ -125,7 +125,7 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    solargraph (0.43.2)
+    solargraph (0.44.0)
       backport (~> 1.2)
       benchmark
       bundler (>= 1.17.2)
@@ -167,7 +167,7 @@ DEPENDENCIES
   pry (~> 0.14.1)
   rspec (~> 3.10)
   selenium-webdriver (~> 3.142)
-  solargraph (~> 0.43.2)
+  solargraph (~> 0.44.0)
   webdrivers (~> 4.6)
 
 BUNDLED WITH
