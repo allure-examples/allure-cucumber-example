@@ -128,7 +128,7 @@ GEM
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
-    solargraph (0.44.1)
+    solargraph (0.44.2)
       backport (~> 1.2)
       benchmark
       bundler (>= 1.17.2)
@@ -170,7 +170,7 @@ DEPENDENCIES
   pry (~> 0.14.1)
   rspec (~> 3.10)
   selenium-webdriver (~> 4.1)
-  solargraph (~> 0.44.1)
+  solargraph (~> 0.44.2)
   webdrivers (~> 5.0)
 
 BUNDLED WITH
