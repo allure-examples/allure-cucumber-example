@@ -3,10 +3,10 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    allure-cucumber (2.16.2)
-      allure-ruby-commons (= 2.16.2)
+    allure-cucumber (2.17.0)
+      allure-ruby-commons (= 2.17.0)
       cucumber (>= 4.0.0, < 8)
-    allure-ruby-commons (2.16.2)
+    allure-ruby-commons (2.17.0)
       mime-types (>= 3.3, < 4)
       oj (>= 3.10, < 4)
       require_all (>= 2, < 4)
@@ -165,7 +165,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
-  allure-cucumber (~> 2.16.2)
+  allure-cucumber (~> 2.17.0)
   capybara (~> 3.36)
   cucumber (~> 7.1)
   pry (~> 0.14.1)
