@@ -3,10 +3,10 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    allure-cucumber (2.17.0)
-      allure-ruby-commons (= 2.17.0)
-      cucumber (>= 4.0.0, < 8)
-    allure-ruby-commons (2.17.0)
+    allure-cucumber (2.18.0)
+      allure-ruby-commons (= 2.18.0)
+      cucumber (>= 4.0.0, < 9)
+    allure-ruby-commons (2.18.0)
       mime-types (>= 3.3, < 4)
       oj (>= 3.10, < 4)
       require_all (>= 2, < 4)
@@ -79,7 +79,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.6-x86_64-darwin)
       racc (~> 1.4)
-    oj (3.13.11)
+    oj (3.13.13)
     parallel (1.22.1)
     parser (3.1.2.0)
       ast (~> 2.4.1)
@@ -165,7 +165,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
-  allure-cucumber (~> 2.17.0)
+  allure-cucumber (~> 2.18.0)
   capybara (~> 3.37)
   cucumber (~> 7.1)
   pry (~> 0.14.1)
