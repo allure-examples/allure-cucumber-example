@@ -17,5 +17,5 @@ Then 'I should see github icon' do
 end
 
 Then 'I should see gitlab icon' do
-  expect(page).to have_css('[title=GitLab]', visible: :all)
+  expect(page).to have_css('[id=tanukiHomeDesktop]', visible: :all)
 end

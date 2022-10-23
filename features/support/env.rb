@@ -16,18 +16,5 @@ end
 
 Capybara.configure do |config|
   config.app_host = 'http://google.com'
-  config.default_driver = :selenium
-end
-
-Capybara.register_driver(:selenium) do
-  Capybara::Selenium::Driver.new(
-    nil,
-    browser: :chrome,
-    clear_local_storage: true,
-    clear_session_storage: true,
-    desired_capabilities: {
-      :browserName => 'chrome',
-      'goog:chromeOptions' => { args: ['--headless'] }
-    }
-  )
+  config.default_driver = ENV['CHROME_HEADLESS_DISABLED'] ? :selenium_chrome : :selenium_chrome_headless
 end
