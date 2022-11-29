@@ -3,13 +3,14 @@ GEM
   specs:
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    allure-cucumber (2.19.0)
-      allure-ruby-commons (= 2.19.0)
+    allure-cucumber (2.20.0)
+      allure-ruby-commons (= 2.20.0)
       cucumber (>= 4.0.0, < 9)
-    allure-ruby-commons (2.19.0)
+    allure-ruby-commons (2.20.0)
       mime-types (>= 3.3, < 4)
       oj (>= 3.10, < 4)
       require_all (>= 2, < 4)
+      rspec-expectations (~> 3.12)
       uuid (>= 2.3, < 3)
     ast (2.4.2)
     backport (1.2.0)
@@ -164,7 +165,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  allure-cucumber (~> 2.19.0)
+  allure-cucumber (~> 2.20.0)
   capybara (~> 3.38)
   cucumber (~> 8.0)
   pry (~> 0.14.1)
