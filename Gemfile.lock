@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: 1e9a6274638553d767d4155bc6c1da4aedc796b7
+  revision: b29b5fa068cb3b1011197b26f01322d1aac937c6
   branch: master
   specs:
     allure-cucumber (2.23.0)
@@ -57,7 +57,7 @@ GEM
     cucumber-tag-expressions (4.1.0)
     diff-lcs (1.5.0)
     e2mmap (0.1.0)
-    ffi (1.15.5)
+    ffi (1.16.2)
     jaro_winkler (1.5.4)
     json (2.6.3)
     kramdown (2.4.0)
