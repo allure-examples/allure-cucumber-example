@@ -3,7 +3,8 @@
 require 'pry'
 require 'allure-cucumber'
 require 'capybara/cucumber'
-require 'webdrivers/chromedriver'
+
+require_relative 'global'
 
 # Allure
 AllureCucumber.configure do |c|

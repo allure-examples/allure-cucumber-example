@@ -27,3 +27,8 @@ Feature: Using Google
       gitlab.com
       """
     Then I should see gitlab icon
+
+  Scenario: Passes on the second try
+    Given I am a flaky test
+    When I run this test
+    Then it passes on the second try
