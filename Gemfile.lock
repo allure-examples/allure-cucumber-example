@@ -127,7 +127,7 @@ GEM
       parser (>= 3.2.1.0)
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
-    selenium-webdriver (4.15.0)
+    selenium-webdriver (4.16.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -172,7 +172,7 @@ DEPENDENCIES
   cucumber (~> 9.1)
   pry (~> 0.14.2)
   rspec (~> 3.12)
-  selenium-webdriver (~> 4.15)
+  selenium-webdriver (~> 4.16)
   solargraph (~> 0.50.0)
 
 BUNDLED WITH
