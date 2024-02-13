@@ -8,6 +8,6 @@ gem 'allure-cucumber', '~> 2.23.0', github: 'allure-framework/allure-ruby', bran
 gem 'capybara', '~> 3.40'
 gem 'cucumber', '~> 9.1'
 gem 'pry', '~> 0.14.2'
-gem 'rspec', '~> 3.12'
+gem 'rspec', '~> 3.13'
 gem 'selenium-webdriver', '~> 4.17'
 gem 'solargraph', '~> 0.50.0'
