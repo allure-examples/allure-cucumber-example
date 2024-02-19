@@ -1,12 +1,12 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: 5614680a6c95be401e050a68919749e0d2c81fd1
+  revision: cd61bb066abe8f522d7f48499122c5a7772dce37
   branch: master
   specs:
-    allure-cucumber (2.23.0)
-      allure-ruby-commons (= 2.23.0)
+    allure-cucumber (2.24.0)
+      allure-ruby-commons (= 2.24.0)
       cucumber (>= 4.0.0, < 10)
-    allure-ruby-commons (2.23.0)
+    allure-ruby-commons (2.24.0)
       mime-types (>= 3.3, < 4)
       require_all (>= 2, < 4)
       rspec-expectations (~> 3.12)
@@ -169,7 +169,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  allure-cucumber (~> 2.23.0)!
+  allure-cucumber (~> 2.24.0)!
   capybara (~> 3.40)
   cucumber (~> 9.1)
   pry (~> 0.14.2)
