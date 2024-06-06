@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: f495e6649da424a8e3f659b6420b3528fd1f1375
+  revision: 013620b99740bd1f94119d959b8dca6ae90d137c
   branch: master
   specs:
     allure-cucumber (2.24.5)
@@ -22,7 +22,7 @@ GEM
     backport (1.2.0)
     base64 (0.2.0)
     benchmark (0.3.0)
-    bigdecimal (3.1.7)
+    bigdecimal (3.1.8)
     builder (3.2.4)
     capybara (3.40.0)
       addressable
@@ -76,7 +76,7 @@ GEM
     method_source (1.0.0)
     mime-types (3.5.2)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2024.0305)
+    mime-types-data (3.2024.0507)
     mini_mime (1.1.5)
     multi_test (1.1.0)
     nokogiri (1.16.5-arm64-darwin)
