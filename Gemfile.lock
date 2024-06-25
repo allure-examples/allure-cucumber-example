@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: aafdf273f477e33e75570984131ced9bda302142
+  revision: 33c113777766dc2a93d59623151e755256a1c5bf
   branch: master
   specs:
     allure-cucumber (2.24.5)
@@ -56,7 +56,7 @@ GEM
       bigdecimal
     cucumber-gherkin (27.0.0)
       cucumber-messages (>= 19.1.4, < 23)
-    cucumber-html-formatter (21.3.1)
+    cucumber-html-formatter (21.4.0)
       cucumber-messages (> 19, < 25)
     cucumber-messages (22.0.0)
     cucumber-tag-expressions (6.1.0)
@@ -114,7 +114,7 @@ GEM
       rspec-mocks (~> 3.13.0)
     rspec-core (3.13.0)
       rspec-support (~> 3.13.0)
-    rspec-expectations (3.13.0)
+    rspec-expectations (3.13.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-mocks (3.13.0)
