@@ -8,6 +8,10 @@
     {
       "id": "1245",
       "selector": "Gitlab page has icon"
+    },
+    {
+      "id": "1255",
+      "selector": "Manual attachment"
     }
   ]
 }

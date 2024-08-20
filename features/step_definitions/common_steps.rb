@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'securerandom'
+
 Given 'I am on' do |url|
   visit("http://#{url}")
 end
@@ -30,4 +32,11 @@ end
 
 Then 'it passes on the second try' do
   expect(Global.run).to eq(2)
+end
+
+Then 'I should be able to create screenshot attachment' do
+  filename = "tmp/screenshot-#{SecureRandom.uuid}.png"
+  page.save_screenshot(filename)
+
+  Allure.add_attachment(name: 'screenshot', source: File.new(filename), type: Allure::ContentType::PNG)
 end

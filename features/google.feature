@@ -27,3 +27,10 @@ Feature: Using Google
       gitlab.com
       """
     Then I should see gitlab icon
+
+  Scenario: Manual attachment
+    Given I am on
+      """
+      github.com
+      """
+    Then I should be able to create screenshot attachment
