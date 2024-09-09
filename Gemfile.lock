@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: 3232f6e70a357b8a64e89d253ab13ac185abaa89
+  revision: aa242daa8489e53cef1f7dbfb57ab4f7da788b49
   branch: master
   specs:
     allure-cucumber (2.25.0)
