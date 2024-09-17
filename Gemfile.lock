@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: aa242daa8489e53cef1f7dbfb57ab4f7da788b49
+  revision: 388c7069a4dc8fa53e7c0b2bb6be99331d034f98
   branch: master
   specs:
     allure-cucumber (2.25.0)
@@ -74,7 +74,7 @@ GEM
     method_source (1.1.0)
     mime-types (3.5.2)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2024.0820)
+    mime-types-data (3.2024.0903)
     mini_mime (1.1.5)
     mini_portile2 (2.8.7)
     multi_test (1.1.0)
@@ -107,7 +107,7 @@ GEM
       rspec-mocks (~> 3.13.0)
     rspec-core (3.13.0)
       rspec-support (~> 3.13.0)
-    rspec-expectations (3.13.2)
+    rspec-expectations (3.13.3)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-mocks (3.13.1)
