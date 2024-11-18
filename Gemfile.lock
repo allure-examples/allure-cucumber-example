@@ -85,7 +85,7 @@ GEM
     parser (3.3.4.2)
       ast (~> 2.4.1)
       racc
-    pry (0.14.2)
+    pry (0.15.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (6.0.1)
@@ -169,7 +169,7 @@ DEPENDENCIES
   allure-cucumber (~> 2.25.0)!
   capybara (~> 3.40)
   cucumber (~> 9.2)
-  pry (~> 0.14.2)
+  pry (~> 0.15.0)
   rspec (~> 3.13)
   selenium-webdriver (~> 4.24)
   solargraph (~> 0.50.0)
