@@ -19,14 +19,14 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: '4.0'
           bundler-cache: true
       - name: Test
         run: bundle exec cucumber --retry 1
         env:
           ALLURE_TESTPLAN_PATH: features/support/fixture
       - name: Upload allure-results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v7
         with:
           name: allure-reports
           path: report/allure-results
