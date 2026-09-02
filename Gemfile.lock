@@ -248,7 +248,7 @@ DEPENDENCIES
   cucumber (~> 11)
   pry (~> 0.14.2)
   rspec (~> 3.13)
-  selenium-webdriver (~> 4.24)
+  selenium-webdriver (~> 4.48)
   solargraph (~> 0.60.2)
 
 CHECKSUMS
