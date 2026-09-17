@@ -178,7 +178,7 @@ GEM
       prism (~> 1.7)
     ruby-progressbar (1.13.0)
     rubyzip (3.6.0)
-    selenium-webdriver (4.48.0)
+    selenium-webdriver (4.49.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
@@ -252,7 +252,7 @@ DEPENDENCIES
   cucumber (~> 11)
   pry (~> 0.16.0)
   rspec (~> 3.13)
-  selenium-webdriver (~> 4.48)
+  selenium-webdriver (~> 4.49)
   solargraph (~> 0.60.2)
 
 CHECKSUMS
@@ -343,7 +343,7 @@ CHECKSUMS
   rubocop-ast (1.50.0) sha256=b9ca88300da0803ee222ad20cdb30494c0a784eed06fdc35d254b06d662788db
   ruby-progressbar (1.13.0) sha256=80fc9c47a9b640d6834e0dc7b3c94c9df37f08cb072b7761e4a71e22cff29b33
   rubyzip (3.6.0) sha256=268994d44d62282d1cfd99bf10eae48d7267199158ad7ea3e1fee2da9458b695
-  selenium-webdriver (4.48.0) sha256=0c8376ebc8a0a4879343fe6fe6eccdcea76748611cd25de370b33eded2077a94
+  selenium-webdriver (4.49.0) sha256=b430f091a3cababb356b6f6132e0e4f385b017819355f563557e1537819edc89
   solargraph (0.60.4) sha256=dd6342aa69b4b526ba5e1344adee01b5318b65cdf6758c598d2a6b7b047abdc5
   sorbet-runtime (0.6.13466) sha256=65ee78a81e678d302d94fd1179c0cf4f3882654c9d26c331947ce7a302c53036
   sord (7.1.0) sha256=e02fd59294da520e50cea80a07fb9bc93db709c552d055871379ae8d8e87601f
