@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 # allure dependency is fetched from git mainly for purpose of testing allure-ruby
 # just the version should be used if this is used as reference for other projects
-gem 'allure-cucumber', '~> 2.29.1', github: 'allure-framework/allure-ruby', branch: 'master'
+gem 'allure-cucumber', '~> 2.32.0', github: 'allure-framework/allure-ruby', branch: 'master'
 gem 'capybara', '~> 3.40'
 gem 'cucumber', '~> 11'
 gem 'pry', '~> 0.16.0'
